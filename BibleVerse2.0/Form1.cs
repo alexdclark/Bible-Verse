@@ -29,7 +29,7 @@ namespace BibleVerse2._0
 
         private void button1_Click(object sender, EventArgs e)
         {
-            button1.Text = "Getting a Bible Verse";
+            button1.Text = "Working";
             GetScripture Bible = new GetScripture();
             input = bookInput.Text + "%20"+ chapterBox.Text +":" + verseBox.Text;
             
